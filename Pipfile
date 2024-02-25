@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chainlit = "*"
+langchain = "0.1.0"
+langchain-community = "0.0.20"
+openai = "*"
+sentence-transformers = "*"
+faiss-cpu = "*"
+pypdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"
